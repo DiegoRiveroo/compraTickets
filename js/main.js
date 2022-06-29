@@ -6,7 +6,7 @@ totalBtn.addEventListener("click", function(){
     let cantidad = document.getElementById("cantidad").value
     let index = document.getElementById("seleccion").selectedIndex
     let descuento = 0
-    console.log(index)
+  
     if(index === 0){
         descuento = (200 - (200*0.8)) * cantidad
     }
